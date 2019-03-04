@@ -1,0 +1,64 @@
+/*font-family: 'Laila', serif;
+*/
+
+/* the CSS elements goes by oreder. */
+
+/* Main Vars */
+:root {
+    --firstFont : 'Laila', serif;
+    --secondFont : 'Srisakdi', cursive;
+    --thirdFont : 'Montserrat', sans-serif;
+    --firstColor : #007bff;
+    --secondColor : #EEE;
+    --thirdColor : #17a2b8;
+    --textTransformC : capitalize; 
+    --textTransformU : uppercase; 
+}
+
+/* Main Rules */
+body {
+    background-color: var(--secondColor);
+    /* test */
+    height: 3000px
+}
+
+.text-title {
+    color: var(--firstColor);
+    font-family: var(--thirdFont);
+    font-size: 1.7em;
+}
+
+/* Navbar Component Style */
+.store-brand {
+    color: #f2395a;
+    font-family: var(--secondFont);
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: var(--textTransformC);
+    text-shadow: 2px 2px 0 var(--secondColor);
+    white-space: .5rem
+
+}
+
+.shop-logo {
+    color: var(--secondColor);
+    font-size: 2em;
+    margin-left: 10px
+}
+
+.products {
+    font-size: 1.7em;
+    color: var(--secondColor) !important;
+    text-transform: var(--textTransformC);
+    transition: all .5s ease-in-out
+}
+
+.products:hover {
+    color: var(--thirdColor) !important;
+    font-size: 1.4em;
+}
+
+
+
+
+
