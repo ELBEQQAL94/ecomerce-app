@@ -1,11 +1,10 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import Title from './Title';
 
 class Cart extends Component {
   render() {
     return (
-      <div>
-        <p className="lead">Hello, my name is cart!</p>
-      </div>
+        <Title title="Cart Page" />
     );
   }
 }

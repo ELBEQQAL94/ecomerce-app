@@ -11,9 +11,7 @@ const Button = styled.button`
     text-transform: var(--textTransformC);
     transition: all .5s ease-in-out;
     &:hover{
-        background-color: var(--thirdColor);
-        padding: 4px 17px;
-        border: 2px dashed yellow;
+        background-color: var(--thirdColor);  
     }
     &:focus {
         outline: none;

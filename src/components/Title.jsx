@@ -1,15 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Title extends  Component {
-    render() {
+const Title  = props  => {
+
+  const {title} = props;
+
     return (
-    <div className="row">
-        <div className="col-10 mx-auto my-2 text-center text-title">
-          <h1>{this.props.title}</h1>
-        </div>
-    </div>
+          <h1 className="text-monospace mx-auto mt-5 text-center text-title font-weight-bold">{title}</h1>
     );
-    }
 }
 
 export default Title;

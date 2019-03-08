@@ -9,10 +9,8 @@
     --secondFont : 'Srisakdi', cursive;
     --thirdFont : 'Montserrat', sans-serif;
     --firstColor : #007bff;
-    --secondColor : #EEE;
-    --thirdColor : #17a2b8;
-    --textTransformC : capitalize; 
-    --textTransformU : uppercase; 
+    --secondColor : rgb(235, 205, 205);
+    --thirdColor : #0b6e7e;
 }
 
 /* Main Rules */
@@ -25,7 +23,11 @@ body {
 .text-title {
     color: var(--firstColor);
     font-family: var(--thirdFont);
-    font-size: 1.7em;
+    font-size: 3em
+}
+
+@media(max-width: 568px) {
+    .text-title {font-size: 2em !important}
 }
 
 /* Navbar Component Style */
@@ -58,7 +60,10 @@ body {
     font-size: 1.4em;
 }
 
-
+/* Product */
+.btn-cart {
+    transition: all 1.3s linear
+}
 
 
 
